@@ -11,7 +11,7 @@ contract("Transactions", function(accounts) {
     });
   });
 
-  it("it initializes the candidates with the correct values", function() {
+  it("it initializes the units with the correct values", function() {
     return Transactions.deployed().then(function(instance) {
       electionInstance = instance;
       return electionInstance.unidades(1);
