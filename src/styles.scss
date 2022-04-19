@@ -1,4 +1,5 @@
 @import './assets/scss/variables';
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 body {
   background: map-get($colors, bgcolor) !important;
